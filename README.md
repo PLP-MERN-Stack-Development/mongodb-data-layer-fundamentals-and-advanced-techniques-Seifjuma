@@ -1,30 +1,32 @@
-# 📝 Assignment: Introduction to Databases
+# 📚 PLP Bookstore MongoDB Project
 
-## 🎯 Learning Objectives  
-- Understand how to create and manage databases in SQL.  
-- Learn how to use SQL commands to create and delete databases.  
-- Gain experience working with basic SQL commands for database management.
+This project demonstrates MongoDB CRUD, advanced queries, aggregation pipelines, and indexing.
 
----
+## 🚀 Setup Instructions
 
-## 📋 What You'll Need  
-💻 A computer with internet access and a database setup (e.g., MySQL, PostgreSQL, etc.).  
-📝 A text editor (e.g., Visual Studio Code, Sublime Text, or any SQL editor).  
-📚 Basic knowledge of SQL queries and database management.
+### 1. Create the database
+```
+use plp_bookstore
+```
 
----
+### 2. Insert sample data
+```
+load("insert_books.js")
+```
 
-## 📝 Submission Instructions  
-📂 Write all your SQL queries in **answers.sql** file.  
-✍️ Answer each question concisely and make sure your queries are clear and correct.  
-🗣️ Structure your responses clearly, and use comments if necessary to explain your approach.
+### 3. Run all queries
+```
+load("queries.js")
+```
 
----
+## 📁 Files Included
+- insert_books.js
+- queries.js
+- README.md
+- screenshot.png
 
-## 📚 Assignment Questions  
- 1. Write an SQL query to create a new database called **salesDB**.  
- 2. Write an SQL query to drop (delete) the database called **demo**.  
-
----
-
-Good luck 🚀
+## 🧪 Features
+✔ CRUD  
+✔ Advanced queries  
+✔ Aggregations  
+✔ Indexing  
