@@ -1,59 +1,30 @@
-# MongoDB Fundamentals - Week 1
+# 📝 Assignment: Introduction to Databases
 
-## Setup Instructions
+## 🎯 Learning Objectives  
+- Understand how to create and manage databases in SQL.  
+- Learn how to use SQL commands to create and delete databases.  
+- Gain experience working with basic SQL commands for database management.
 
-Before you begin this assignment, please make sure you have the following installed:
+---
 
-1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
-2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
-3. **Node.js** - [Download here](https://nodejs.org/)
+## 📋 What You'll Need  
+💻 A computer with internet access and a database setup (e.g., MySQL, PostgreSQL, etc.).  
+📝 A text editor (e.g., Visual Studio Code, Sublime Text, or any SQL editor).  
+📚 Basic knowledge of SQL queries and database management.
 
-### Node.js Package Setup
+---
 
-Once you have Node.js installed, run the following commands in your assignment directory:
+## 📝 Submission Instructions  
+📂 Write all your SQL queries in **answers.sql** file.  
+✍️ Answer each question concisely and make sure your queries are clear and correct.  
+🗣️ Structure your responses clearly, and use comments if necessary to explain your approach.
 
-```bash
-# Initialize a package.json file
-npm init -y
+---
 
-# Install the MongoDB Node.js driver
-npm install mongodb
-```
+## 📚 Assignment Questions  
+ 1. Write an SQL query to create a new database called **salesDB**.  
+ 2. Write an SQL query to drop (delete) the database called **demo**.  
 
-## Assignment Overview
+---
 
-This week focuses on MongoDB fundamentals including:
-- Creating and connecting to MongoDB databases
-- CRUD operations (Create, Read, Update, Delete)
-- MongoDB queries and filters
-- Aggregation pipelines
-- Indexing for performance
-
-## Submission
-
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
-
-## Getting Started
-
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
-
-## Files Included
-
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
-
-## Requirements
-
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+Good luck 🚀
